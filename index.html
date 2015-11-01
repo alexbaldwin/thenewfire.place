@@ -3,29 +3,54 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Fireplace for Apple tvOS</title>
-    <meta name="description" content="">
+    <title>Fireplace for the new Apple TV</title>
+    <meta name="description" content="Sitting around the fire is a major part of the human existence. We
+          gather around to tell big stories and sing songs. Yet, the overall
+          experience of fireplaces hasn't changed in the last millenia.
+          Until now, you've had to manually spark the kindling and stoke the
+          coals. Never again will you have to laboriously tend to your
+          fireplace. This is the new fireplace. This is where fireplaces are
+          heading.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link href="//d2v52k3cl9vedd.cloudfront.net/basscss/7.0.4/basscss.min.css" rel="stylesheet">
     <link href="atvImg.css" rel="stylesheet">
     <style>
       body, h1, h2, h3 {
-        font-family: Avenir, 'Helvetica Neue', helvetica, sans-serif;
+        font-family: -apple-system, SF UI Text,Roboto,Helvetica Neue,Helvetica,sans-serif;
+        -webkit-font-smoothing: antialiased;
       }
+      .regular {
+        font-weight: 300;
+    }
+         .atvImg {
+             width: 320px;
+             height: 190px;
+             margin-right: auto;
+             margin-left: auto;
+         }
+     </style>
     </style>
     <script src="atvImg.js"></script>
   </head>
-  <body class="bg-black white center">
+  <body class="bg-black white center" style="background-image:
+    linear-gradient(rgb(26,35,44), rgb(0,0,0)), none;">
     <div class="flex flex-center" style="min-height:100vh">
-      <div class="p2 mx-auto">
+      <div class="p2 mx-auto sm-col-12 md-col-8 lg-col-6">
   <div class="atvImg">
        <img src="./images/front.png">
        <div class="atvImg-layer" data-img="./images/back.png"></div>
        <div class="atvImg-layer" data-img="./images/front.png"></div>
    </div>
-        <h1>Fireplace for Apple tvOS</h1>
-        <p>Fireplace for Apple tvOS</p>
+        <h1 class="regular" style="font-size: 3rem;">The future of fireplaces.</h1>
+        <p class="h4">Sitting around the fire is a major part of the human existence. We
+          gather around to tell big stories and sing songs. Yet, the overall
+          experience of fireplaces hasn't changed in the last millenia.
+          Until now, you've had to manually spark the kindling and stoke the
+          coals. Never again will you have to laboriously tend to your
+          fireplace. <br><br> This is the new fireplace. This is where fireplaces are
+          heading.</p>
+        <p class="bold">Coming soon…</p>
       </div>
     </div>
     <script>
