@@ -5,12 +5,35 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Fireplace for Apple tvOS</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=0">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link href="http://d2v52k3cl9vedd.cloudfront.net/basscss/7.0.4/basscss.min.css" rel="stylesheet">
+    <link href="atvImg.css" rel="stylesheet">
+    <style>
+      body, h1, h2, h3 {
+        font-family: Avenir, 'Helvetica Neue', helvetica, sans-serif;
+      }
+    </style>
+    <script src="atvImg.js"></script>
   </head>
-  <body>
-    <p>Fireplace for Apple tvOS</p>
+  <body class="bg-black white center">
+    <div class="flex flex-center" style="min-height:100vh">
+      <div class="p2 mx-auto">
+        <div class="atvImg">
+          <img src="/images/flat.png">
+          <div class="atvImg-layer" data-img="images/back.png"></div>
+          <div class="atvImg-layer" data-img="images/front.png"></div>
+        </div>
+        <h1>Fireplace for Apple tvOS</h1>
+        <p>Fireplace for Apple tvOS</p>
+      </div>
+    </div>
+    <script>
+      window.onload = function() {
+        console.log('Ready');
+        atvImg();
+      };
+    </script>
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
       function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
